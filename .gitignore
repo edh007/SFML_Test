@@ -1,0 +1,20 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+SFML_Sample/Output
+SFML_Sample/temp
+*.db
+*.suo
+*.user
+*.pdb
+*.orig
+*.tlog
+*.exe
+*.pdb
+*.obj
+*.log
+*.ilk
+*.ipch
+*.tmp
