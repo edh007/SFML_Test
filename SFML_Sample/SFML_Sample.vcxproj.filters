@@ -9,5 +9,21 @@
     <ClCompile Include="engine\main.cpp">
       <Filter>Engine</Filter>
     </ClCompile>
+    <ClCompile Include="engine\BaseEngine.cpp" />
+    <ClCompile Include="engine\StateMachine.cpp" />
+    <ClCompile Include="engine\AssetManager.cpp" />
+    <ClCompile Include="engine\States\MainState.cpp" />
+    <ClCompile Include="engine\States\MainState.h" />
+    <ClCompile Include="engine\States\PauseState.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="engine\BaseEngine.h" />
+    <ClInclude Include="engine\StateMachine.h" />
+    <ClInclude Include="engine\State.h" />
+    <ClInclude Include="engine\Macro.h" />
+    <ClInclude Include="engine\AssetManager.h" />
+    <ClInclude Include="engine\States\PauseState.h" />
+    <ClInclude Include="engine\BaseData\ArcheType.h" />
+    <ClInclude Include="engine\BaseData\ComponentType.h" />
   </ItemGroup>
 </Project>

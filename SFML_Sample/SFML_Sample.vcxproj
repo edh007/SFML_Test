@@ -162,7 +162,23 @@
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="engine\BaseEngine.cpp" />
+    <ClCompile Include="engine\AssetManager.cpp" />
+    <ClCompile Include="engine\StateMachine.cpp" />
     <ClCompile Include="engine\main.cpp" />
+    <ClCompile Include="engine\States\MainState.cpp" />
+    <ClCompile Include="engine\States\MainState.h" />
+    <ClCompile Include="engine\States\PauseState.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="engine\BaseData\ArcheType.h" />
+    <ClInclude Include="engine\BaseData\ComponentType.h" />
+    <ClInclude Include="engine\BaseEngine.h" />
+    <ClInclude Include="engine\AssetManager.h" />
+    <ClInclude Include="engine\Macro.h" />
+    <ClInclude Include="engine\State.h" />
+    <ClInclude Include="engine\StateMachine.h" />
+    <ClInclude Include="engine\States\PauseState.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
